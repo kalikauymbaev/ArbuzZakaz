@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "101674167805",
+    "firebase_url": "https://arbuz-c84ec-default-rtdb.firebaseio.com",
+    "project_id": "arbuz-c84ec",
+    "storage_bucket": "arbuz-c84ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101674167805:android:3e11806acad4d30de1bd94",
+        "android_client_info": {
+          "package_name": "com.example.arbuz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101674167805-65ihn5sojfpgnunm4d3m8u8u96pt1ruh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arbuz",
+            "certificate_hash": "2c484d715a371194750a4e4b471fec591649ed8f"
+          }
+        },
+        {
+          "client_id": "101674167805-qgidg0887ac2c6r6feqal930o3aiiflq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6L_L3zNivEPS4_BfoKPUsSMRr2kNOXKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101674167805-qgidg0887ac2c6r6feqal930o3aiiflq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

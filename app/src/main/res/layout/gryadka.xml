@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выберите арбуз из грядки"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel3"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel4"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel5"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel6"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rel7"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel8"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel9"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginHorizontal="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watermelon"
+                    app:tint="@color/arbuz_red"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>
